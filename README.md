@@ -1,7 +1,7 @@
-# Python-TUTORIALS
+# :snake: Python-TUTORIALS
 This repo introduces users to python and its basic concepts and familiarises Beginers with Python Syntax.
 
-# Applications of Python
+# :cherries:Applications of Python
 
 As mentioned before, Python is one of the most widely used language over the web. I'm going to list few of them here:
 
@@ -25,4 +25,11 @@ As mentioned before, Python is one of the most widely used language over the web
 
     10. Python is a Beginner's Language − Python is a great language for the beginner-level programmers and supports the development of a wide range of applications from simple text processing to WWW browsers to games.
     
+# :scroll:Beginner Tips for Learning :snake:Python Programming
+
+    1. Make It Stick. Tip #1: Code Everyday. Tip #2: Write It Out. ...
+    2. Make It Collaborative. Tip #6: Surround Yourself With Others Who Are Learning. Tip #7: Teach. ...
+    3. Make Something. Tip #10: Build Something, Anything. Tip #11: Contribute to Open Source.
+    
+    Go Forth and Learn! :snake:
 
