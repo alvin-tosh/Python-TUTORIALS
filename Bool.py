@@ -41,3 +41,17 @@ bool(())
 bool([])
 bool({}) 
 # All will return False
+
+
+
+# Functions can Return a Boolean. You can create functions that returns a Boolean Value.
+# You can execute code based on the Boolean answer of a function
+def myFunction() :
+  return True
+
+# executes code based on the Boolean answer of the function.
+if myFunction():
+  print("YES!")
+else:
+  print("NO!")
+
