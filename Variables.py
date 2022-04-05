@@ -16,6 +16,24 @@ z = float(3)  # z will be 3.0
 
 
 # Get the Type: You can get the data type of a variable with the type() function.
+x = 5
+y = "John"
+print(type(x))
+print(type(y)) 
+
+
+
+# String variables can be declared either by using single or double quotes
+x = "John"
+# is the same as
+x = 'John'
+
+
+
+# Variable names are case-sensitive.
+a = 4
+A = "Sally"   #A will not overwrite a 
+
 
 
 
