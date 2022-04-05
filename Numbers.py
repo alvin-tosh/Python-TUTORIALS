@@ -13,7 +13,9 @@ print(type(z))
 
 
 # Type Conversion: You can convert from one type to another with the int(), float(), and complex() methods.
+#...................................................................
 # NOTE: You cannot convert complex numbers into another number type!
+#..................................................................
 x = 1    # int
 y = 2.8  # float
 z = 1j   # complex
