@@ -31,5 +31,5 @@ As mentioned before, Python is one of the most widely used language over the web
     2. Make It Collaborative. Tip #6: Surround Yourself With Others Who Are Learning. Tip #7: Teach. ...
     3. Make Something. Tip #10: Build Something, Anything. Tip #11: Contribute to Open Source.
     
-    Go Forth and Learn! :snake:
+    Go Forth and Learn...!
 
