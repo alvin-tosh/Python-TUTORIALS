@@ -8,7 +8,7 @@
 def greet ():
   
     #   Display a greeting to users 
-    print('Hi there, i am Alvin')
+    print('Hi there, i am Alvin!')
 
 
 # If the function needs some information to do its job, you need to specify it inside the parentheses (). 
@@ -26,4 +26,8 @@ def greet ():
 # The following example calls the greet() function. Since the greet() function doesn’t need any information, you need to specify empty parentheses like this:
 
 greet()
+
+# If you run the program, it’ll show a greeting on the screen
+
+Hi there, i am Alvin!
 
