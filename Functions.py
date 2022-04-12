@@ -55,10 +55,31 @@ print(total)
 30
 
 
+# HELP FUNCTION!
+# Python provides a built-in function called help() that allows you to show the documentation of a function.
+# The following example shows the documentation of the print() function:
+
+help(print)
+
+# Output
+print(...)
+    print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
+
+    Prints the values to a stream, or to sys.stdout by default.
+    Optional keyword arguments:
+    file:  a file-like object (stream); defaults to the current sys.stdout.
+    sep:   string inserted between values, default a space.
+    end:   string appended after the last value, default a newline.
+    flush: whether to forcibly flush the stream.
+
+
 # SUMMARY
     # A Python function is a reusable named block of code that performs a task or returns a value.
     # Use the def keyword to define a new function. A function consists of function definition and body.
     # A function can have zero or more parameters. If a function has one or more parameters, you need to pass the same number of arguments into it.
     # A function can perform a job or return a value. Use the return statement to return a value from a function.
+    # Note that you can use the help() function to show the documentation of modules, classes, functions, and keywords. 
+    # Use the help() function to get the documentation of a function.
+    # Place a string, either single-line or multi-line strings, as the first line in the function to add documentation to it.
 
 
