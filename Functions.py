@@ -21,7 +21,7 @@ def greet ():
 # The text string surrounded by triple quotes is called a docstring. It describes what the function does. Python uses the docstring to generate documentation for the function automatically.
 # The line print('Hi') is the only line of actual code in the function body. The greet() function does one task: print('Hi').
 
-# CALLING A FUNCTION
+# CALLING A FUNCTION!
 # When you want to use a function, you need to call it. A function call instructs Python to execute the code inside the function.
 # The following example calls the greet() function. Since the greet() function doesn’t need any information, you need to specify empty parentheses like this:
 
@@ -30,4 +30,35 @@ greet()
 # If you run the program, it’ll show a greeting on the screen
 
 Hi there, i am Alvin!
+
+
+# RETURNING A VALUE!
+# A function can perform a task like the greet() function. Or it can return a value. The value that a function returns is called a return value.
+# To return a value from a function, you use the return statement inside the function body.
+return value
+
+# This is best explained using functions with multiple parameters
+
+# FUNCTIONS WITH MULTIPLE PARAMETERS!
+# A function can have zero, one, or multiple parameters.
+# The following example defines a function called sum() that calculates the sum of two numbers:
+
+# In this example, the sum() function has two parameters a and b, and returns the sum of them.
+def sum(a, b):
+    return a + b
+
+# In the following function call, a will be 10 and b will be 20 inside the function body.
+total = sum(10,20)
+print(total)
+
+# Output
+30
+
+
+# SUMMARY
+    # A Python function is a reusable named block of code that performs a task or returns a value.
+    # Use the def keyword to define a new function. A function consists of function definition and body.
+    # A function can have zero or more parameters. If a function has one or more parameters, you need to pass the same number of arguments into it.
+    # A function can perform a job or return a value. Use the return statement to return a value from a function.
+
 
