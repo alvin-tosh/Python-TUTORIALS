@@ -108,12 +108,16 @@ print(second)    # Output 3
 print(numbers)   # [1, 2, 7, 9, 4]  ---  See, 3 has been kicked out :)
 
 
+# And finally --- last but not least --- remove() To remove an element by value...ie
+numbers = [1, 3, 2, 7, 9, 4]
 
+numbers.remove(9)  # removes the element with value 9 from the numbers list
+print(numbers)
 
+# Output
+# [1, 3, 2, 7, 4] --- See, no 9 ;)
 
-
-
-
+# lets summarise all this fun with Summarylists.py  :)
 
 
 
