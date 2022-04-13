@@ -12,3 +12,10 @@ todo_list = ['Learn Python List','How to manage List elements']
 # The following example defines a list of six numbers:
 
 numbers = [1, 3, 2, 7, 9, 4]
+# If you print out the list, you’ll see its representation including the square brackets...
+
+print(numbers)
+# Output:
+# [1, 3, 2, 7, 9, 4]
+
+
