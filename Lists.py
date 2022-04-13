@@ -27,3 +27,10 @@ print(colors)
 # Output
 # ['red', 'green', 'blue']
 
+
+# A list can contains other lists. The following example defines a list of lists
+coordinates = [[0, 0], [100, 100], [200, 200]]
+print(coordinates)
+
+# Output
+# [[0, 0], [100, 100], [200, 200]]
