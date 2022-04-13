@@ -59,7 +59,7 @@ print(numbers)
 numbers[2] /= 2
 
 # Output
-# [1, 3, 1.0, 7, 9, 4]
+# [1, 3, 1.0, 7, 9, 4] --- index 2 (3rd element div by 2)
 
 
 # The append() method appends an element to the end of a list...ie
@@ -69,7 +69,7 @@ numbers.append(100)
 print(numbers)
 
 # Output
-# [1, 3, 2, 7, 9, 4, 100]
+# [1, 3, 2, 7, 9, 4, 100] --- 100 is added at end of list
 
 
 # The insert() method adds a new element at any position in the list...ie
@@ -79,7 +79,34 @@ numbers.insert(2, 100) # the following inserts the number 100 at index 2 of the 
 print(numbers)
 
 # Output
-# [1, 3, 100, 2, 7, 9, 4]
+# [1, 3, 100, 2, 7, 9, 4] --- 100 inserted at index 2 (3rd element)
+
+
+# The del statement allows you to remove an element from a list by specifying the position of the element...ie
+del numbers[0]
+
+print(numbers)
+
+# Output
+# [3, 2, 7, 9, 4] --- 1 has been removed
+
+
+# The pop() method removes the last element from a list and returns that element
+numbers = [1, 3, 2, 7, 9, 4]
+last = numbers.pop()
+
+print(last)       # 4
+print(numbers)    # [1, 3, 2, 7, 9]  --- 4 has been kicked POPPED :)
+
+
+# To pop an element by its position, you use the pop() with the element’s index...ie
+numbers = [1, 3, 2, 7, 9, 4]
+
+second = numbers.pop(1)
+
+print(second)    # Output 3
+print(numbers)   # [1, 2, 7, 9, 4]  ---  See, 3 has been kicked out :)
+
 
 
 
