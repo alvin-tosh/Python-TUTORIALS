@@ -19,3 +19,11 @@ print(numbers)
 # [1, 3, 2, 7, 9, 4]
 
 
+# The following shows how to define a list of strings...
+
+colors = ['red', 'green', 'blue']
+print(colors)
+
+# Output
+# ['red', 'green', 'blue']
+
