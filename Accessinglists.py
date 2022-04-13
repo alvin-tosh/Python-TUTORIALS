@@ -45,17 +45,41 @@ print(numbers)
 
 
 
+# The following shows how to multiply the second element with 10...
+
+numbers = [1, 3, 2, 7, 9, 4]
+numbers[1] = numbers[1]*10
+
+print(numbers)
+
+# Output
+# [1, 30, 2, 7, 9, 4]
+
+# And the following divides the third element by 2
+numbers[2] /= 2
+
+# Output
+# [1, 3, 1.0, 7, 9, 4]
 
 
+# The append() method appends an element to the end of a list...ie
+numbers = [1, 3, 2, 7, 9, 4]
+numbers.append(100)
+
+print(numbers)
+
+# Output
+# [1, 3, 2, 7, 9, 4, 100]
 
 
+# The insert() method adds a new element at any position in the list...ie
+numbers = [1, 3, 2, 7, 9, 4]
+numbers.insert(2, 100) # the following inserts the number 100 at index 2 of the numbers list
 
+print(numbers)
 
-
-
-
-
-
+# Output
+# [1, 3, 100, 2, 7, 9, 4]
 
 
 
