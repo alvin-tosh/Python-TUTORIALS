@@ -14,5 +14,19 @@ print(rgb[2])  # Output blue
 rgb = ('red', 'green', 'blue')
 rgb[0] = 'yellow'  # attempts to change the first element of the rgb tuple to 'yellow'
 
-print(rgb[0])      # TypeError: 'tuple' object does not support item assignment
+print(rgb[0])      # TypeError: 'tuple' object does not support item assignment --- Python throwing a tantrum!
+
+
+
+# To define a tuple with one element, you need to include a trailing comma after the first element...ie
+numbers = (3,)
+print(type(numbers))   # Output: <class 'tuple'>
+
+# If you exclude the trailing comma, the type of the numbers will be int , which stands for integer. 
+# And its value is 3. Python won’t create a tuple that includes the number 3...ie
+numbers = (3)
+print(type(numbers))   # Output: <class 'int'> --- Python pouts!  
+
+# ASSIGNMENT (of tuples...not Homework ;)
+# Even though you can’t change a tuple, you can assign a new tuple to a variable that references a tuple...ie
 
